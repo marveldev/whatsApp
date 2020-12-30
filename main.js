@@ -1,6 +1,8 @@
 import topNav from "./topNav/topNav.js"
 import chatPage from "./chatPage/chatPage.js"
 import statusPage from "./statusPage/statusPage.js"
+import statusPageEventListeners from "./statusPage/events.js"
+import chatPageEventListeners from "./chatPage/events.js"
 
 const main = () => {
   return `
@@ -15,3 +17,5 @@ const main = () => {
 }
 
 document.querySelector('.main').innerHTML = main()
+statusPageEventListeners()
+chatPageEventListeners()
