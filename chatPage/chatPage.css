@@ -7,6 +7,7 @@
   display: grid;
   width: 100%;
   grid-template-columns: 0.2fr 1fr;
+  column-gap: 1em;
 }
 
 .image {
@@ -31,4 +32,20 @@
 
 .chats > strong {
   font-size: 1.2em;
+}
+
+.icon {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  color: #fff;
+  width: 4em;
+  height: 4em;
+  border-radius: 2em;
+  background-color: #01E675;
+  box-shadow: 0 0.4em 0.4em 0em #0000009b;
+}
+
+.contact > i {
+  vertical-align: middle;
 }
