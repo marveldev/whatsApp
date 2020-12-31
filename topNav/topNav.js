@@ -12,7 +12,7 @@ const topNav = () => {
           <button><i class="fa fa-camera"></i></button>
           <button id="chatButton">CHATS</button>
           <button id="statusButton">STATUS</button>
-          <button>CALLS</button>
+          <button id="callButton">CALLS</button>
         </nav>
     </div>
   `
