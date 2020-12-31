@@ -1,13 +1,12 @@
-.pages {
-  display: none;
+.chat-page {
+  position: relative;
+  top: 6em;
 }
 
-.chat-page > button {
+.chat-profile {
   display: grid;
-  grid-template-columns: 0.2fr 1fr;
-  position: relative;
-  top: 7.5em;
   width: 100%;
+  grid-template-columns: 0.2fr 1fr;
 }
 
 .image {
@@ -28,4 +27,8 @@
 
 .chats p {
   margin: 0;
+}
+
+.chats > strong {
+  font-size: 1.2em;
 }
