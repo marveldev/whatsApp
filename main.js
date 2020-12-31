@@ -3,6 +3,7 @@ import chatPage from "./chatPage/chatPage.js"
 import statusPage from "./statusPage/statusPage.js"
 import statusPageEventListeners from "./statusPage/events.js"
 import chatPageEventListeners from "./chatPage/events.js"
+import callsPageEventListeners from "./callsPage/events.js"
 
 const main = () => {
   return `
@@ -10,12 +11,10 @@ const main = () => {
     <div class="current-page">
       ${chatPage()}
     </div>
-    <div class="pages">
-      ${statusPage()}
-    </div>
   `
 }
 
 document.querySelector('.main').innerHTML = main()
 statusPageEventListeners()
 chatPageEventListeners()
+callsPageEventListeners()
