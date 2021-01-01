@@ -1,6 +1,6 @@
 import statusPage from './statusPage/statusPage.js'
 import callsPage from './callsPage/callsPage.js'
-import chatPage from './chatPage/chatPage.js'
+import defaultPage from './defaultPage/defaultPage.js'
 
 const pageEventListeners = () => {
   const switchCurrentPage = (selector, page) => {
@@ -12,7 +12,7 @@ const pageEventListeners = () => {
     })
   }
 
-  switchCurrentPage('.chat', chatPage())
+  switchCurrentPage('.chat', defaultPage())
   switchCurrentPage('.status', statusPage())
   switchCurrentPage('.call', callsPage())
 }
