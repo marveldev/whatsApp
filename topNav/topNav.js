@@ -8,12 +8,12 @@ const topNav = () => {
           <button class="more-button"><i class="material-icons">&#xe5d4;</i></button>
         </div>
       </div>
-        <nav class="chat-nav">
-          <button><i class="fa fa-camera"></i></button>
-          <button id="chatButton">CHATS</button>
-          <button id="statusButton">STATUS</button>
-          <button id="callButton">CALLS</button>
-        </nav>
+      <nav class="chat-nav">
+        <button class="button"><i class="fa fa-camera"></i></button>
+        <button class="chat button active">CHATS</button>
+        <button class="status button">STATUS</button>
+        <button class="call button">CALLS</button>
+      </nav>
     </div>
   `
 }
